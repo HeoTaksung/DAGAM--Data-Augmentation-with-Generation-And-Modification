@@ -16,6 +16,3 @@ DAG.run()
 
 DAM = DAM_method(input_file, ratio, 0.2, output_file, DAGAM=False)  # DAGAM=True > When used DAGAM
 DAM.run()
-
-
-# saved_training_data(saved_file_name, class_sentence, aug_sentence)
