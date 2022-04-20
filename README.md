@@ -22,6 +22,14 @@
 
 ## Method
 
-  * DAG: used a generation model ([T5 base model](https://huggingface.co/t5-base)) by combining three texts instead of one, to provide variations to input data.
+  * Data Augmentation with Generation (DAG)
+    
+    * Used a generation model ([T5 base model](https://huggingface.co/t5-base)) by combining three texts instead of one, to provide variations to input data.
 
-  * DAM: used Character order change (COC) strategy, which comes after the phenomenon, to text data. COC denotes fixing the first and the last character in a word and randomly permuting the rest.
+  * Data Augmentation with Modification (DAM)
+
+    * Used Character order change (COC) strategy, which comes after the phenomenon, to text data. COC denotes fixing the first and the last character in a word and randomly permuting the rest.
+
+  * Data Augmentation with Generation And Modification (DAGAM)
+
+    * Used combining two strategies of DAG and DAM.
