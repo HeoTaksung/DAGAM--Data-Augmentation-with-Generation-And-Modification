@@ -1,6 +1,8 @@
-# DAGAM: Data Augmentation with Generation And Modification
+# Text Augmentation
 
-## Text Augmentation
+  * [DAGAM: Data Augmentation with Generation And Modification](https://arxiv.org/abs/2204.02633)
+  
+    * `Byeong-Cheol Jo`, `Tak-Sung Heo`, `Yeongjoon Park`, `Yongmin Yoo`, `Won Ik Cho`, `Kyungsun Kim`
 
 ----------------------------------------
 
