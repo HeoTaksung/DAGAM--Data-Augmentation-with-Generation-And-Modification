@@ -34,4 +34,4 @@
 
   * Data Augmentation with Generation And Modification (DAGAM)
 
-    * Used combining two strategies of DAG and DAM..
+    * Used combining two strategies of DAG and DAM.
