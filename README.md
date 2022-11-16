@@ -4,7 +4,7 @@
   
     * `Byeong-Cheol Jo`, `Tak-Sung Heo`, `Yeongjoon Park`, `Yongmin Yoo`, `Won Ik Cho`, `Kyungsun Kim`
 
-----------------------------------------
+---------------------------------------------
 
 ## Dataset
 
@@ -20,7 +20,7 @@
 
   * [R52](http://www.daviddlewis.com/resources/testcollections/reuters21578/)
 
-----------------------------------------
+---------------------------------------------
 
 ## Method
 
@@ -34,4 +34,4 @@
 
   * Data Augmentation with Generation And Modification (DAGAM)
 
-    * Used combining two strategies of DAG and DAM.
+    * Used combining two strategies of DAG and DAM..
