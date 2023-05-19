@@ -37,3 +37,28 @@
     * Used combining two strategies of DAG and DAM.
     
  -------------------------------------------
+ 
+ ## Using Augmentation
+  * `$ pip3 install -r requirements.txt`
+ 
+  * Data Augmentation with Generation
+  
+    * `$ python3 main.py --method="DAG" --input="input_file_path" --output="output_file_path" --ratio=3 --num_sample=0.2  --model="t5-base"`
+      * ratio: ratio of data to augment
+      * num_sample: percentage of words to apply Character Order Change Method
+      * model: generative model
+      
+      
+  * Data Augmentation with Modification
+  
+    * `$ python3 main.py --method="DAM" --input="input_file_path" --output="output_file_path" --ratio=3 --num_sample=0.2`
+      * ratio: ratio of data to augment
+      * num_sample: percentage of words to apply Character Order Change Method
+  
+
+   
+  * Data Augmentation with Generation And Modification
+  
+    * `$ python3 main.py --method="DAGAM" --input="input_file_path" --output="output_file_path" --ratio=3 --num_sample=0.2`
+      * ratio: ratio of data to augment
+      * num_sample: percentage of words to apply Character Order Change Method
