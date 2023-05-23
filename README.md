@@ -59,6 +59,6 @@
    
   * Data Augmentation with Generation And Modification
   
-    * `$ python3 main.py --method="DAGAM" --input="input_file_path" --output="output_file_path" --ratio=3 --num_sample=0.2`
+    * `$ python3 main.py --method="DAGAM" --input="input_file_path" --output="output_file_path" --ratio=3 --num_sample=0.2 --model="t5-base"`
       * ratio: ratio of data to augment
       * num_sample: percentage of words to apply Character Order Change Method
